@@ -1,3 +1,13 @@
+{-
+	Project Euler Challenge 008:
+
+	Discover the largest product of five consecutive digits in the 1000-digit
+	number.
+	
+	Pretty straightforward: Break the string into chunks of size 5, convert the
+	chars to numbers, multiply them and find the maximum.
+-}
+
 import Char
 
 input =
