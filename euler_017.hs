@@ -21,3 +21,9 @@ calculate_letters =
 	
 calculate_length =
 	sum $ map length calculate_letters
+	
+challenge_017_naive =
+	calculate_length
+	
+main = do
+	putStrLn ("Naive solution: " ++ (show (challenge_017_naive)))
