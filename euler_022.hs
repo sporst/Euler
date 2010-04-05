@@ -1,3 +1,9 @@
+{-
+	Project Euler Challenge 022:
+
+	What is the total of all the name scores in the file of first names?
+-}
+
 import Char
 import List
 import Monad
