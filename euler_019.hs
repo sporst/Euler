@@ -41,3 +41,6 @@ challenge_019_naive =
 	-- We know that Jan 1st 1900 is a Monday but our range actually starts in 1901
 	-- so we have to subtract the Sundays of 1900.
 	calculate_first_sundays 1900 2000 1 - calculate_first_sundays 1900 1900 1
+	
+main = do
+	putStrLn ("Naive solution: " ++ (show (challenge_019_naive)))
