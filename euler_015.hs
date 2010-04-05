@@ -1,7 +1,8 @@
 {-
 	Project Euler Challenge 015:
 
-	Find the longest sequence using a starting number under one million.
+	Starting in the top left corner in a 20 by 20 grid, how many routes are there
+	to the bottom right corner?
 	
 	The naive solution calculates the complete Pascal triangle for each run. The
 	better solution makes use of combinatorics to calculate the result directly.
