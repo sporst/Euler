@@ -26,7 +26,7 @@ challenge_015_naive =
 	calculate_triangle 20
 	
 calculate_combinations grid_size =
-	product [2 * grid_size] `div` (product [grid_size] * product [grid_size])
+	product [1..2 * grid_size] `div` (product [1..grid_size] * product [1..grid_size])
 	
 challenge_015_better =
 	calculate_combinations 20
